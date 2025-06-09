@@ -27,4 +27,3 @@ export const getTodos = () => get<Todo[]>('/todos');
 
 export const getUser = (userId: number) => get<User>(`/users/${userId}`);
 
-export const getTodoById = (todoId: number) => get<Todo>(`/todos/${todoId}`);
